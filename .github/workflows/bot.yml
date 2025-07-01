@@ -38,4 +38,4 @@ jobs:
           chmod +x ./engines/stockfish
 
       - name: Running the bot
-        run: python -u user_interface.py
+        run: python user_interface.py --upgrade
